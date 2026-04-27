@@ -81,7 +81,6 @@ logs/
 *.log.*
 
 # --- VISUALS GENERADOS ---
-visuals/*.png
 visuals/*.jpg
 visuals/*.svg
 
