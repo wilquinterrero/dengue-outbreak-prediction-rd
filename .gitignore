@@ -90,6 +90,7 @@ visuals/*.svg
 # --- IDEs ---
 .vscode/
 .idea/
+.claude/
 *.swp
 *.swo
 *~
