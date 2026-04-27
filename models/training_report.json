@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-04-26T18:56:36.566056",
+  "train_samples": 2308,
+  "val_samples": 494,
+  "test_samples": 494,
+  "rf_metrics": {
+    "train_mae": 0.050240412447544985,
+    "train_rmse": 0.07418496812539961,
+    "train_r2": 0.8525884813732704,
+    "cv_mae_mean": 0.10072108910283817,
+    "cv_mae_std": 0.004505302144469632,
+    "val_mae": 0.0948382153310713,
+    "val_rmse": 0.13792099049996387,
+    "val_r2": 0.5037113588882955,
+    "accuracy_pct": 99.90516178466893
+  },
+  "lstm_metrics": {
+    "val_mae": 0.10829615592956543,
+    "accuracy_pct": 89.17038440704346
+  },
+  "ensemble_accuracy_pct": 86.8,
+  "meets_threshold": false,
+  "duration_seconds": 2954.6
+}

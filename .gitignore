@@ -1,0 +1,117 @@
+# ============================================================
+# DENGUE OUTBREAK PREDICTION - RD
+# .gitignore - Archivo de exclusiones de Git
+# ============================================================
+
+# --- DATOS SENSIBLES (NUNCA subir al repositorio) ---
+data/raw/
+data/processed/*.enc
+data/processed/*.csv
+outputs/*.enc
+outputs/*.csv
+outputs/*.xlsx
+
+# --- VARIABLES DE ENTORNO Y CREDENCIALES ---
+.env
+.env.local
+.env.production
+*.env
+secrets/
+credentials/
+
+# --- MODELOS ENTRENADOS (archivos grandes) ---
+models/*.pkl
+models/*.h5
+models/*.keras
+models/*.joblib
+models/*.pt
+models/*.pth
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- ENTORNOS VIRTUALES ---
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# --- JUPYTER NOTEBOOKS (outputs) ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- PYTEST Y COVERAGE ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# --- LOGS ---
+logs/
+*.log
+*.log.*
+
+# --- VISUALS GENERADOS ---
+visuals/*.png
+visuals/*.jpg
+visuals/*.svg
+
+# --- DOCKER ---
+.docker/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- ARCHIVOS TEMPORALES ---
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# --- MYPY ---
+.mypy_cache/
+.dmypy.json
+dmypy.json

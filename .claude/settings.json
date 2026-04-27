@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip index *)",
+      "WebSearch",
+      "Bash(py -3.13 --version)",
+      "Bash(py -3.12 --version)",
+      "Bash(py -3.11 --version)",
+      "Bash(pip install *)",
+      "Bash(TRAIN_PASSWORD='DengueRD2026!' python train.py)",
+      "PowerShell($f = \"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-User-dengue-outbreak-prediction-rd\\\\81b09106-c325-44aa-a3f0-f679060367f9\\\\tasks\\\\bzr64js4f.output\"; \\(Get-Item $f\\).Length; Get-Content $f | Select-Object -First 50)",
+      "PowerShell($env:TRAIN_PASSWORD = 'DengueRD2026!'; cd \"C:\\\\Users\\\\User\\\\dengue-outbreak-prediction-rd\"; python -u -c \"print\\('step1'\\); from src.utils.logger import setup_logger; print\\('step2'\\); from src.security.encryption import prompt_password; print\\('step3'\\); from config.settings import settings, Paths; print\\('step4 done'\\)\" 2>&1)",
+      "PowerShell($f = \"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-User-dengue-outbreak-prediction-rd\\\\81b09106-c325-44aa-a3f0-f679060367f9\\\\tasks\\\\blcuvdz05.output\"; \\(Get-Item $f\\).Length; Get-Content $f)",
+      "PowerShell($f = \"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-User-dengue-outbreak-prediction-rd\\\\81b09106-c325-44aa-a3f0-f679060367f9\\\\tasks\\\\bewwhrfbn.output\"; \\(Get-Item $f\\).Length; Get-Content $f -Encoding UTF8 -Raw)"
+    ]
+  }
+}
